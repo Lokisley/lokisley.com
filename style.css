@@ -1,6 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Mukta:700");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css");
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta', 'sans-serif';
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #282828;
+}
+
 .split {
     display: flex;
     flex-flow: row-reverse wrap;
@@ -11,19 +26,14 @@
 
 .split #logo {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 40vh;
+    height: 40vh;
     align-items: center;
     background: url(logo.svg) 0 0 no-repeat;
 }
 
 h1 {
-    font-family: 'Mukta', 'sans-serif';
-    font-variant: small-caps;
-    color: #282828;
-    display: flex;
-    line-height: 10rem;
-    align-items: center;
+    margin: 5rem 0rem 5rem;
 }
 
 ul {
@@ -31,7 +41,7 @@ ul {
     display: flex;
     flex-direction: row-reverse;
     bottom: 50px;
-    left: 10px;
+    left: 50px;
 }
 
 li {
@@ -63,10 +73,7 @@ li:hover {
 }
 
 .text {
-    font-family: 'Mukta', sans-serif;
-    font-weight: 600;
     font-size: 1.2rem;
-    font-variant: small-caps;
     white-space: nowrap;
     padding-right: 15px;
 }
