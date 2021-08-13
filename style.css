@@ -21,7 +21,7 @@ body {
     flex-flow: row-reverse wrap;
     align-items: center;
     justify-content: space-around;
-    margin-top: calc(300px/2);
+    margin-top: 30vh;
 }
 
 .split #logo {
@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-    margin: 5rem 0rem 5rem;
+    margin: 5vh 0 5vh;
 }
 
 ul {
