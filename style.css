@@ -36,7 +36,7 @@ h1 {
     margin: 5vh 0 5vh;
 }
 
-ul {
+.btn-list {
     position: absolute;
     display: flex;
     flex-direction: row-reverse;
@@ -44,23 +44,22 @@ ul {
     left: 50px;
 }
 
-li {
+.btn-social:link,
+.btn-social:visited {
     margin: 5px;
     background-color: #DC2828;
     color: white;
     text-decoration: none;
     border-radius: 0 1rem;
     height: 2rem;
+    max-width: 2rem;
     display: inline-flex;
     align-items: center;
     overflow: hidden;
-    width: auto;
-    max-width: 2rem;
-    -webkit-transition: max-width 0.5s;
     transition: max-width 0.5s;
 }
 
-li:hover {
+.btn-social:hover {
     max-width: 300px;
 }
 
@@ -76,4 +75,27 @@ li:hover {
     font-size: 1.2rem;
     white-space: nowrap;
     padding-right: 15px;
+}
+
+.blinking-cursor {
+    font-weight: 150;
+    font-size: 40px;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: black;
+    }
 }
