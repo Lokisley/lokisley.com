@@ -80,11 +80,7 @@ h1 {
 .blinking-cursor {
     font-weight: 150;
     font-size: 40px;
-    color: #2E3D48;
-    -webkit-animation: 1s blink step-end infinite;
-    -moz-animation: 1s blink step-end infinite;
-    -ms-animation: 1s blink step-end infinite;
-    -o-animation: 1s blink step-end infinite;
+    color: #282828;
     animation: 1s blink step-end infinite;
 }
 
